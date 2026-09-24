@@ -1,0 +1,4 @@
+{"chunk":null,"ts":"2026-09-24T17:19:40Z","pid":12572,"engine":"r","severity":"error","render":false,"text":"## Error: Scanner error: mapping values are not allowed in this context at line 8, column 19"}
+{"chunk":null,"ts":"2026-09-24T17:33:59Z","pid":12572,"engine":"r","severity":"error","render":false,"text":"## Error: Scanner error: mapping values are not allowed in this context at line 8, column 13"}
+{"chunk":null,"ts":"2026-09-24T17:35:06Z","pid":12572,"engine":"r","severity":"error","render":false,"text":"## Error: Scanner error: mapping values are not allowed in this context at line 8, column 11"}
+{"chunk":null,"ts":"2026-09-24T17:47:29Z","pid":12572,"engine":"r","severity":"error","render":false,"text":"## Error: Scanner error: mapping values are not allowed in this context at line 8, column 16"}
