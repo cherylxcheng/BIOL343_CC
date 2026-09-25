@@ -17,3 +17,17 @@
 {"chunk":null,"ts":"2026-09-25T04:19:13Z","pid":12604,"engine":"r","severity":"error","render":false,"text":"## Error: \u001b[1m\u001b[22m`mapping` must be created by `aes()`.\n\u001b[31m✖\u001b[39m You've supplied NULL."}
 {"chunk":null,"ts":"2026-09-25T04:20:18Z","pid":12604,"engine":"r","severity":"error","render":false,"text":"## Error: \u001b[1m\u001b[22m`mapping` must be created by `aes()`.\n\u001b[31m✖\u001b[39m You've supplied NULL."}
 {"chunk":null,"ts":"2026-09-25T04:24:40Z","pid":12604,"engine":"r","severity":"error","render":false,"text":"## Error: Can't `View()` an object of class `numeric`"}
+{"chunk":null,"ts":"2026-09-25T14:22:25Z","pid":15580,"engine":"r","severity":"warning","render":false,"warning":"## Warning: package ‘ggplot2’ was built under R version 4.4.3"}
+{"chunk":null,"ts":"2026-09-25T14:22:30Z","pid":15580,"engine":"r","severity":"error","render":false,"text":"## Error: object 'cc1_data' not found"}
+{"chunk":null,"ts":"2026-09-25T14:22:58Z","pid":15580,"engine":"r","severity":"warning","render":false,"warning":"## Warning: package ‘knitr’ was built under R version 4.4.2"}
+{"chunk":null,"ts":"2026-09-25T14:23:02Z","pid":15580,"engine":"r","severity":"error","render":false,"text":"## Error: object 'population_type' not found"}
+{"chunk":null,"ts":"2026-09-25T14:23:13Z","pid":15580,"engine":"r","severity":"error","render":false,"text":"## Error: \u001b[1m\u001b[22mAt least one layer must contain all faceting variables: `A`, `A`, `A`, `A`, `A`, `A`, `A`, `A`, `A`, `A`,\n`A`, `A`, `A`, `A`, `A`, `A`, `A`, `A`, …, `S`, and `S`\n\u001b[31m✖\u001b[39m Plot is missing `c(\"A\", \"S\")`\n\u001b[31m✖\u001b[39m Layer 1 is missing `c(\"A\", \"S\")`"}
+{"chunk":null,"ts":"2026-09-25T14:28:15Z","pid":15580,"engine":"r","severity":"error","render":false,"text":"## Error: object 'population_type' not found"}
+{"chunk":null,"ts":"2026-09-25T14:29:58Z","pid":15580,"engine":"r","severity":"error","render":false,"text":"## Error: object 'population_type' not found"}
+{"chunk":null,"ts":"2026-09-25T14:34:46Z","pid":15580,"engine":"r","severity":"error","render":false,"text":"## Error: object 'cc1_1' not found"}
+{"chunk":null,"ts":"2026-09-25T14:35:14Z","pid":15580,"engine":"r","severity":"error","render":false,"text":"## Error: object 'cc1_' not found"}
+{"chunk":null,"ts":"2026-09-25T14:35:22Z","pid":15580,"engine":"r","severity":"error","render":false,"text":"## Error: \u001b[1m\u001b[22mAt least one layer must contain all faceting variables: `A`, `A`, `A`, `A`, `A`, `A`, `A`, `A`, `A`, `A`,\n`A`, `A`, `A`, `A`, `A`, `A`, `A`, `A`, …, `S`, and `S`\n\u001b[31m✖\u001b[39m Plot is missing `c(\"A\", \"S\")`\n\u001b[31m✖\u001b[39m Layer 1 is missing `c(\"A\", \"S\")`"}
+{"chunk":null,"ts":"2026-09-25T14:38:14Z","pid":15580,"engine":"r","severity":"error","render":false,"text":"## Error: argument \"input\" is missing, with no default"}
+{"chunk":null,"ts":"2026-09-25T14:44:07Z","pid":15580,"engine":"r","severity":"error","render":false,"text":"## Error: there is no package called ‘rmakrdown’"}
+{"chunk":null,"ts":"2026-09-25T14:46:44Z","pid":15580,"engine":"r","severity":"warning","render":false,"warning":"## Warning: path[1]=\"Grouop_11_CC2.Rmd\": The system cannot find the file specified"}
+{"chunk":null,"ts":"2026-09-25T14:46:44Z","pid":15580,"engine":"r","severity":"error","render":false,"text":"## Error: The file 'Grouop_11_CC2.Rmd' does not exist."}

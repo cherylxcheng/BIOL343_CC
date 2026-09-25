@@ -32,14 +32,14 @@ Write the group members as an **ordered list** (Chapter 5, *Lists*). For each me
 
 1. **Cheryl Cheng** — 20421521
     + [BIOL343_CC](https://github.com/cherylxcheng/BIOL343_CC)
-1. 
+1. **Sarah Akagi** - 
 
 # Setup chunk
 
 The chunk below sets the default options for every other chunk in the document. Add the **chunk option** (Chapter 5, *Code Chunk Arguments*) that runs it without showing either the code or any output in the knitted report.
 
-```{r setup }
-knitr::opts_chunk$set(include = F)
+```{r setup , include = F}
+knitr::opts_chunk$set(echo = T)
 ```
 
 # Data dictionary
@@ -91,13 +91,15 @@ tail(cc1_data)
 
 Write the formula you used for ovary area as a **full-line equation** in LaTeX (Chapter 5, *Equations*), using `\times` for multiplication. Then, in a sentence of ordinary text, state its units using an **in-line equation** with a superscript.
 
-$$width \times height = area$$
+$$\text{ovary width }\times \text{ovary height} = \text{ovary area}$$
+
+$\text{ovary area units are } (mm)^2$
 
 # Dynamic table
 
 **a.** In the chunk below, calculate the mean `ovary_area` for each `population_type` with `aggregate()` (Chapter 3, *Other Functions*) and save the result as `area_means`. This chunk should run but be **completely hidden** in the report.
 
-```{r area-means}
+```{r area-means, include=F}
 area_means <- aggregate(
   cc1_data$ovary_area,
   list(cc1_data$population_type),
@@ -119,7 +121,12 @@ Make a histogram of `ovary_area` with `ggplot()` + `geom_histogram()` (Chapter 4
 
 ```{r area-histogram, echo=F}
 library(ggplot2)
-ggplot(data = cc1_data, aes(x = ovary_area)) + geom_histogram(binwidth = 0.5)
+ggplot(data = cc1_data, aes(x = ovary_area)) +
+  geom_histogram(binwidth = 0.8) +
+  facet_wrap("population_type", ncol = 1) +
+  theme_classic() +
+  xlab("Ovary Area (mm^2)") +
+  ylab("Count")
 ```
 
 # Image
@@ -128,7 +135,7 @@ Embed an image of the study species, *Solanum pimpinellifolium*, with Markdown i
 
 ![_Solanum pimpinellifolium_](images\Hydroponic_g13.jpg)
 
-Source: [Solanum pimpinellifolium Image](images\Hydroponic_g13.jpg)
+Source: [BIOL343 CC2 Onq Site](https://onq.queensu.ca/d2l/le/content/1208667/viewContent/7105008/View)
 
 # Repository 
 
