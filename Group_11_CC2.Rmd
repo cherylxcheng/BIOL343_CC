@@ -130,7 +130,7 @@ Embed an image of the study species, *Solanum pimpinellifolium*, with Markdown i
 
 Source: [Solanum pimpinellifolium Image](images\Hydroponic_g13.jpg)
 
-# Repository
+# Repository 
 
 Your project folder is a GitHub repository (Chapter 6). Before you submit:
 
