@@ -103,32 +103,29 @@ area_means <- aggregate(
   list(cc1_data$population_type),
   mean
 )
-names(area_means) <- c("Population Type", "Ovary Area")
 ```
 
 **b.** Display `area_means` with `kable()` from the `knitr` package (Chapter 5, *Dynamic Tables*), including a `caption`. This chunk should show the **table but not the code**.
 
-```{r area-table, echo=F}
-library(knitr)
-kable(area_means, caption = "Mean Ovary Area by Population Type")
+```{r area-table}
+
 ```
 
 # Embedded graph
 
 Make a histogram of `ovary_area` with `ggplot()` + `geom_histogram()` (Chapter 4), choosing a sensible `binwidth` and using `facet_wrap()` to give each `population_type` its own panel, `labs()` for axis labels with units and a title, and `theme_classic()` (Chapter 7). This chunk should show the **graph but not the code**, and it should not print package start-up messages (see the chunk header used under *Embed Graphs* in Chapter 5).
 
-```{r area-histogram, echo=F}
-library(ggplot2)
-ggplot(data = cc1_data, aes(x = ovary_area)) + geom_histogram(binwidth = 0.5)
+```{r area-histogram}
+
 ```
 
 # Image
 
 Embed an image of the study species, *Solanum pimpinellifolium*, with Markdown image syntax (Chapter 5, *Images*). Save the image file in an `images` folder inside your project folder and use a **relative path**, exactly as the chapter does, so that the image is pushed to GitHub with everything else. The text in the square brackets is the caption. Below the image, give the **source** as a Markdown link to the page you took it from.
 
-![_Solanum pimpinellifolium_](images\Hydroponic_g13.jpg)
+(image here)
 
-Source: [Solanum pimpinellifolium Image](images\Hydroponic_g13.jpg)
+Source: 
 
 # Repository
 

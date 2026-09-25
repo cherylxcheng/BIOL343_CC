@@ -7,3 +7,13 @@
 {"chunk":null,"ts":"2026-09-25T03:25:15Z","pid":12604,"engine":"r","severity":"error","render":false,"text":"## Error: Syntax error: unexpected symbol"}
 {"chunk":null,"ts":"2026-09-25T03:25:56Z","pid":12604,"engine":"r","severity":"error","render":false,"text":"## Error: object 'Group_11_CC2.Rmd' not found"}
 {"chunk":null,"ts":"2026-09-25T03:26:27Z","pid":12604,"engine":"r","severity":"error","render":false,"text":"## Error: <text>:6:0: unexpected end of input\n4: \n5: cc1_data <- subset(NoBlank, select = -c(population_name, latitude, longitude, avg_aug_temp)\n  ^"}
+{"chunk":null,"ts":"2026-09-25T03:49:19Z","pid":12604,"engine":"r","severity":"error","render":false,"text":"## Error: Syntax error: unexpected symbol"}
+{"chunk":null,"ts":"2026-09-25T03:49:38Z","pid":12604,"engine":"r","severity":"error","render":false,"text":"## Error: object 'population_type' not found"}
+{"chunk":null,"ts":"2026-09-25T03:51:45Z","pid":12604,"engine":"r","severity":"error","render":false,"text":"## Error: object 'population_type' not found"}
+{"chunk":null,"ts":"2026-09-25T03:52:22Z","pid":12604,"engine":"r","severity":"error","render":false,"text":"## Error: arguments must have same length"}
+{"chunk":null,"ts":"2026-09-25T03:58:48Z","pid":12604,"engine":"r","severity":"warning","render":false,"warning":"## Warning: package ‘knitr’ was built under R version 4.4.2"}
+{"chunk":null,"ts":"2026-09-25T04:03:29Z","pid":12604,"engine":"r","severity":"error","render":false,"text":"## Error: Syntax error: unexpected symbol"}
+{"chunk":null,"ts":"2026-09-25T04:11:02Z","pid":12604,"engine":"r","severity":"warning","render":false,"warning":"## Warning: package ‘ggplot2’ was built under R version 4.4.3"}
+{"chunk":null,"ts":"2026-09-25T04:19:13Z","pid":12604,"engine":"r","severity":"error","render":false,"text":"## Error: \u001b[1m\u001b[22m`mapping` must be created by `aes()`.\n\u001b[31m✖\u001b[39m You've supplied NULL."}
+{"chunk":null,"ts":"2026-09-25T04:20:18Z","pid":12604,"engine":"r","severity":"error","render":false,"text":"## Error: \u001b[1m\u001b[22m`mapping` must be created by `aes()`.\n\u001b[31m✖\u001b[39m You've supplied NULL."}
+{"chunk":null,"ts":"2026-09-25T04:24:40Z","pid":12604,"engine":"r","severity":"error","render":false,"text":"## Error: Can't `View()` an object of class `numeric`"}
