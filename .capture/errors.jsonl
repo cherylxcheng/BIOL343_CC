@@ -2,3 +2,8 @@
 {"chunk":null,"ts":"2026-09-24T17:33:59Z","pid":12572,"engine":"r","severity":"error","render":false,"text":"## Error: Scanner error: mapping values are not allowed in this context at line 8, column 13"}
 {"chunk":null,"ts":"2026-09-24T17:35:06Z","pid":12572,"engine":"r","severity":"error","render":false,"text":"## Error: Scanner error: mapping values are not allowed in this context at line 8, column 11"}
 {"chunk":null,"ts":"2026-09-24T17:47:29Z","pid":12572,"engine":"r","severity":"error","render":false,"text":"## Error: Scanner error: mapping values are not allowed in this context at line 8, column 16"}
+{"chunk":null,"ts":"2026-09-25T03:17:41Z","pid":12604,"engine":"r","severity":"error","render":false,"text":"## Error: could not find function \"read_csv\""}
+{"chunk":null,"ts":"2026-09-25T03:19:29Z","pid":12604,"engine":"r","severity":"error","render":false,"text":"## Error: could not find function \"view\""}
+{"chunk":null,"ts":"2026-09-25T03:25:15Z","pid":12604,"engine":"r","severity":"error","render":false,"text":"## Error: Syntax error: unexpected symbol"}
+{"chunk":null,"ts":"2026-09-25T03:25:56Z","pid":12604,"engine":"r","severity":"error","render":false,"text":"## Error: object 'Group_11_CC2.Rmd' not found"}
+{"chunk":null,"ts":"2026-09-25T03:26:27Z","pid":12604,"engine":"r","severity":"error","render":false,"text":"## Error: <text>:6:0: unexpected end of input\n4: \n5: cc1_data <- subset(NoBlank, select = -c(population_name, latitude, longitude, avg_aug_temp)\n  ^"}

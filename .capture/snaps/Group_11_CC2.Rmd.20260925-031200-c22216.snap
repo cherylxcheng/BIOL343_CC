@@ -61,30 +61,15 @@ flower_number |       |
 Copy `A1_Data_Excel.csv` from your Coding Challenge 1 project into this project's `data` folder. In the chunk below, import it with `read.csv()`, keep the appropriate rows and columns (as you did in Coding Challenge 1), and add the `ovary_area` column (Chapter 3, *New Columns*). Save the cleaned data as `cc1_data`.
 
 ```{r import-clean}
-A1_Data_Excel <- read.csv("datafolder/A1_Data_Excel.csv")
+# cc1_data <-
 
-NoBlank <- A1_Data_Excel[1:46, 1:8]
-
-cc1_data <- subset(
-  NoBlank,
-  select = -c(population_name, latitude, longitude, avg_aug_temp)
-)
-
-cc1_data$ovary_area <- cc1_data$ovary_width * cc1_data$ovary_height
 ```
 
 Now document the inspection commands you used (`class()`, `dim()`, `str()`, `head()`, `tail()`) in the chunk below. Add the chunk option that **shows this code in the report but does not run it**, so that the reader can see what you checked without pages of output.
 
-```{r inspect, eval=F}
-class(cc1_data)
+```{r inspect}
+# class(cc1_data)
 
-dim(cc1_data)
-
-str(cc1_data)
-
-head(cc1_data)
-
-tail(cc1_data)
 ```
 
 # Equation

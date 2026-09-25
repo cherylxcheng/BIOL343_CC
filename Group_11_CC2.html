@@ -1536,7 +1536,7 @@ to that member’s GitHub repository, written with Markdown link syntax
 <ol style="list-style-type: decimal">
 <li><strong>Cheryl Cheng</strong> — 20421521
 <ul>
-<li><a href="https://github.com/your_user_name/BIOL343_CC">BIOL343_CC</a></li>
+<li><a href="https://github.com/cherylxcheng/BIOL343_CC">BIOL343_CC</a></li>
 </ul></li>
 <li></li>
 </ol>
@@ -1547,7 +1547,6 @@ to that member’s GitHub repository, written with Markdown link syntax
 document. Add the <strong>chunk option</strong> (Chapter 5, <em>Code
 Chunk Arguments</em>) that runs it without showing either the code or
 any output in the knitted report.</p>
-<pre class="r"><code>knitr::opts_chunk$set(echo = TRUE)</code></pre>
 </div>
 <div id="data-dictionary" class="section level1" number="4">
 <h1><span class="header-section-number">4</span> Data dictionary</h1>
@@ -1557,7 +1556,40 @@ of these variables from the Coding Challenge 1 dataset:
 <code>population_type</code>, <code>ovary_width</code>,
 <code>ovary_height</code>, <code>flower_number</code>. Use the <em>pipes
 and dashes</em> format from the chapter, not R code.</p>
-<p>(table here)</p>
+<div id="tables" class="section level2" number="4.1">
+<h2><span class="header-section-number">4.1</span> Tables</h2>
+<table>
+<thead>
+<tr class="header">
+<th>variable</th>
+<th>description</th>
+<th>units</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>population_type</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>ovary_width</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>ovary_height</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>flower_number</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</div>
 </div>
 <div id="import-and-clean-the-data" class="section level1" number="5">
 <h1><span class="header-section-number">5</span> Import and clean the
@@ -1568,13 +1600,11 @@ below, import it with <code>read.csv()</code>, keep the appropriate rows
 and columns (as you did in Coding Challenge 1), and add the
 <code>ovary_area</code> column (Chapter 3, <em>New Columns</em>). Save
 the cleaned data as <code>cc1_data</code>.</p>
-<pre class="r"><code># cc1_data &lt;-</code></pre>
 <p>Now document the inspection commands you used (<code>class()</code>,
 <code>dim()</code>, <code>str()</code>, <code>head()</code>,
 <code>tail()</code>) in the chunk below. Add the chunk option that
 <strong>shows this code in the report but does not run it</strong>, so
 that the reader can see what you checked without pages of output.</p>
-<pre class="r"><code># class(cc1_data)</code></pre>
 </div>
 <div id="equation" class="section level1" number="6">
 <h1><span class="header-section-number">6</span> Equation</h1>
@@ -1592,7 +1622,6 @@ superscript.</p>
 <code>aggregate()</code> (Chapter 3, <em>Other Functions</em>) and save
 the result as <code>area_means</code>. This chunk should run but be
 <strong>completely hidden</strong> in the report.</p>
-<pre class="r"><code># area_means &lt;-</code></pre>
 <p><strong>b.</strong> Display <code>area_means</code> with
 <code>kable()</code> from the <code>knitr</code> package (Chapter 5,
 <em>Dynamic Tables</em>), including a <code>caption</code>. This chunk

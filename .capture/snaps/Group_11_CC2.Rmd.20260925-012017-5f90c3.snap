@@ -38,53 +38,30 @@ Write the group members as an **ordered list** (Chapter 5, *Lists*). For each me
 
 The chunk below sets the default options for every other chunk in the document. Add the **chunk option** (Chapter 5, *Code Chunk Arguments*) that runs it without showing either the code or any output in the knitted report.
 
-```{r setup }
-knitr::opts_chunk$set(include = F)
+```{r setup, include=f}
+knitr::opts_chunk$set(echo = TRUE)
 ```
 
 # Data dictionary
 
 Write a **Markdown table** (Chapter 5, *Tables*) with three columns — variable, description, units — and one row for each of these variables from the Coding Challenge 1 dataset: `population_type`, `ovary_width`, `ovary_height`, `flower_number`. Use the *pipes and dashes* format from the chapter, not R code.
 
-Tables
------------------------------
-variable | description | units
----------|------------|------
-population_type |     | 
-ovary_width |         | 
-ovary_height |        | 
-flower_number |       | 
-
+(table here)
 
 # Import and clean the data
 
 Copy `A1_Data_Excel.csv` from your Coding Challenge 1 project into this project's `data` folder. In the chunk below, import it with `read.csv()`, keep the appropriate rows and columns (as you did in Coding Challenge 1), and add the `ovary_area` column (Chapter 3, *New Columns*). Save the cleaned data as `cc1_data`.
 
 ```{r import-clean}
-A1_Data_Excel <- read.csv("datafolder/A1_Data_Excel.csv")
+# cc1_data <-
 
-NoBlank <- A1_Data_Excel[1:46, 1:8]
-
-cc1_data <- subset(
-  NoBlank,
-  select = -c(population_name, latitude, longitude, avg_aug_temp)
-)
-
-cc1_data$ovary_area <- cc1_data$ovary_width * cc1_data$ovary_height
 ```
 
 Now document the inspection commands you used (`class()`, `dim()`, `str()`, `head()`, `tail()`) in the chunk below. Add the chunk option that **shows this code in the report but does not run it**, so that the reader can see what you checked without pages of output.
 
-```{r inspect, eval=F}
-class(cc1_data)
+```{r inspect}
+# class(cc1_data)
 
-dim(cc1_data)
-
-str(cc1_data)
-
-head(cc1_data)
-
-tail(cc1_data)
 ```
 
 # Equation

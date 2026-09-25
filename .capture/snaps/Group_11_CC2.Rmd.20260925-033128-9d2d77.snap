@@ -70,21 +70,14 @@ cc1_data <- subset(
   select = -c(population_name, latitude, longitude, avg_aug_temp)
 )
 
-cc1_data$ovary_area <- cc1_data$ovary_width * cc1_data$ovary_height
+cc1_data$ovary_area <- 
 ```
 
 Now document the inspection commands you used (`class()`, `dim()`, `str()`, `head()`, `tail()`) in the chunk below. Add the chunk option that **shows this code in the report but does not run it**, so that the reader can see what you checked without pages of output.
 
-```{r inspect, eval=F}
-class(cc1_data)
+```{r inspect}
+# class(cc1_data)
 
-dim(cc1_data)
-
-str(cc1_data)
-
-head(cc1_data)
-
-tail(cc1_data)
 ```
 
 # Equation
